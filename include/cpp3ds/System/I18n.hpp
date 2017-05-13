@@ -10,7 +10,7 @@
 #include <cstring>
 #include <memory>
 #include <cpp3ds/System/String.hpp>
-#include <fmt/format.h>
+#include <fmt/printf.h>
 
 #define _(key, ...) (cpp3ds::I18n::getInstance().translate(key, ##__VA_ARGS__))
 
